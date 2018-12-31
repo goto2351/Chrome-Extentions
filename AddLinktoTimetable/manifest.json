@@ -1,0 +1,13 @@
+{
+    "name": "Add Link to Timetable on KULASIS",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "KULASISトップページに時間割(後期)へのリンクを追加する",
+
+    "content_scripts":[
+        {
+            "matches":["https://www.k.kyoto-u.ac.jp/student/la/*"],
+            "js":["content_script_v2.js"]
+        }
+    ]
+}
